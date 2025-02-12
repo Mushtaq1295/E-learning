@@ -37,6 +37,9 @@ To run this project locally:
 
  * Open the project in your browser:
    The application will typically be accessible at http://localhost:5173 (or the port specified by Vite).
+## Project Structure
+
+```
 my-elearning-project/
 │
 ├── node_modules/                # Directory for npm packages
@@ -62,6 +65,8 @@ my-elearning-project/
 ├── README.md                    # Project documentation
 ├── tailwind.config.js           # Tailwind CSS configuration
 └── vite.config.js               # Vite configuration
+```
+
 Future Improvements
  * Dynamic Data Fetching: Integrate with a backend API to fetch course data and user progress dynamically.
  * Enhanced Progress Tracking: Implement actual progress tracking functionality and integrate it with the visual representation.
