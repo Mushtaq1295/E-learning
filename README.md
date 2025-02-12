@@ -37,38 +37,31 @@ To run this project locally:
 
  * Open the project in your browser:
    The application will typically be accessible at http://localhost:5173 (or the port specified by Vite).
-Project Structure
-E-Learning/
-├── src/
-│   ├── assets/             # Images, icons, or other static assets
-│   │   ├── ...
-│   ├── components/          # Reusable UI components
-│   │   ├── Navbar.jsx    
-│   │   ├── ...
-│   ├── pages/             # Page components
-│   │   ├── Courses.jsx
-│   │   ├── Home.jsx
-│   │   ├── Progress.jsx
-│   │   ├── ...
-│   ├── App.css               # Global styles (if any)
-│   ├── App.jsx               # Main application component
-│   ├── index.css             # Entry point for styles
-│   ├── main.jsx              # Entry point for the application
-│   ├── ...
-├── public/                 # Static files served directly from the server
-│   ├── index.html
-│   ├── ...
-├── .gitignore             # Specifies intentionally untracked files that Git should ignore
-├── eslint.config.js       # Configuration for ESLint (JavaScript linting)
-├── index.html             # The main HTML file
-├── package-lock.json      # Records the exact versions of dependencies
-├── package.json           # Project dependencies and scripts
-├── postcss.config.js      # Configuration for PostCSS (CSS processing)
-├── README.md               # This file
-├── tailwind.config.js       # Configuration for Tailwind CSS
-├── vite.config.js         # Configuration for Vite (build tool)
-├── ...
-
+my-elearning-project/
+│
+├── node_modules/                # Directory for npm packages
+├── public/                      # Static assets like images, fonts, etc.
+├── src/                         # Source code for the application
+│   ├── assets/                  # Additional assets like images, icons
+│   ├── components/              # Reusable components
+│   │   └── Navbar.jsx           # Navigation bar component
+│   ├── pages/                   # Page components
+│   │   ├── Courses.jsx          # Courses page
+│   │   ├── Home.jsx             # Home page
+│   │   └── Progress.jsx         # Progress tracking page
+│   ├── App.css                  # Styles for the App component
+│   ├── App.jsx                  # Main App component
+│   ├── index.css                # Global styles
+│   └── main.jsx                 # Entry point for the application
+├── .gitignore                   # Specifies files to ignore in Git
+├── eslint.config.js             # ESLint configuration
+├── index.html                   # Main HTML file
+├── package-lock.json            # Automatically generated file for npm
+├── package.json                 # Project dependencies and scripts
+├── postcss.config.js            # PostCSS configuration
+├── README.md                    # Project documentation
+├── tailwind.config.js           # Tailwind CSS configuration
+└── vite.config.js               # Vite configuration
 Future Improvements
  * Dynamic Data Fetching: Integrate with a backend API to fetch course data and user progress dynamically.
  * Enhanced Progress Tracking: Implement actual progress tracking functionality and integrate it with the visual representation.
