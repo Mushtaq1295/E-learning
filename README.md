@@ -24,7 +24,7 @@ To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://www.google.com/search?q=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git)  # Replace with your repository URL
+   git clone https://github.com/Mushtaq1295/E-learning.git # Replace with your repository URL
 
  * Navigate to the project directory:
    cd your-project-directory
